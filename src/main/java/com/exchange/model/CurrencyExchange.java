@@ -65,4 +65,14 @@ public class CurrencyExchange {
 	@Column(name = "ToCurrency")
 	private String to;
 	private BigDecimal conversionMultiple;
+	private String env;
+
+	public String getEnv() {
+		return env;
+	}
+
+	public void setEnv(String env) {
+		this.env = env;
+	}
+
 }
